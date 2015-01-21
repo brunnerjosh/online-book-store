@@ -1,0 +1,23 @@
+body {
+  background-color: #eaeaea;
+  font-family: 'NTR', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #80b9e5;
+  cursor: pointer;
+}
+button {
+  height: 38px;
+}
+button:hover {
+  cursor: pointer;
+}
+button.s-small {
+  height: 28px;
+}
+button.s-large {
+  height: 48px;
+}
