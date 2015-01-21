@@ -9,16 +9,18 @@
 	<%@ include file = "/partials/navigation.jsp" %>
 
 	<!-- MAIN BODY CONTENT -->
-	<div>
-		<h1>Quest: An Online Bookstore</h1>
-		<h2>Hello world!</h2>
-		<p>This is a paragraph!</p>
-		<div>Hi Franklin!</div>
-		<br>
-		<div>Foo bar</div>
-		<button>Button (REGULAR)</button>
-		<button class="s-large">Button (LARGE)</button>
-		<button class="s-small">Button (SMALL)</button>
+	<div class="container">
+		<div>
+			<h1>Quest: An Online Bookstore</h1>
+			<h2>Hello world!</h2>
+			<p>This is a paragraph!</p>
+			<div>Hi Franklin!</div>
+			<br>
+			<div>Foo bar</div>
+			<button>Button (REGULAR)</button>
+			<button class="s-large">Button (LARGE)</button>
+			<button class="s-small">Button (SMALL)</button>
+		</div>
 	</div>
 
 

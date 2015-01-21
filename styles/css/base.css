@@ -9,6 +9,13 @@ a:hover {
   color: #80b9e5;
   cursor: pointer;
 }
+.clearfix {
+  overflow: auto;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
 button {
   height: 38px;
 }

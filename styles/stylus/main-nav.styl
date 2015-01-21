@@ -1,2 +1,20 @@
 .main-nav
-  background-color blue
+  display block
+  position relative
+  width 100%
+  .side
+    &-left,
+    &-right
+      display inline-block
+      // border 1px solid blue
+      a
+        &:last-of-type
+          margin-right 0
+    &-right
+      position absolute
+      top 0
+      right 0
+  div
+    a
+      &.nav-item
+        margin-right 15px
