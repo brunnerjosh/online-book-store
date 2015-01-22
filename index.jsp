@@ -12,14 +12,122 @@
 	<div class="container">
 		<div>
 			<h1>Quest: An Online Bookstore</h1>
-			<h2>Hello world!</h2>
-			<p>This is a paragraph!</p>
-			<div>Hi Franklin!</div>
-			<br>
-			<div>Foo bar</div>
-			<button>Button (REGULAR)</button>
+
+			<div class="item-list-group">
+				<div class="side-left">
+					<div class="side-left">
+						<a class="list-item">Item 1</a>
+						<a class="list-item">Item 2</a>
+						<a class="list-item">Item 3</a>
+						<a class="list-item">Item 4</a>
+						<a class="list-item">Item 5</a>
+						<a class="list-item">Item 6</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="products">
+				<div class="product">
+					<img src="images/girl-on-train.png" />
+					<div class="product-info">
+						<div class="product-title">Book Title</div>
+						<div class="product-price">$0.00</div>
+						<%@ include file = "/partials/product-rating.jsp" %>
+					</div>
+				</div>
+				<div class="product">
+					<img src="images/american-sniper.png" />
+					<div class="product-info">
+						<div class="product-title">Book Title</div>
+						<div class="product-price">$0.00</div>
+						<%@ include file = "/partials/product-rating.jsp" %>
+					</div>
+				</div>
+				<div class="product">
+					<img src="images/the-alchemist.png" />
+					<div class="product-info">
+						<div class="product-title">Book Title</div>
+						<div class="product-price">$0.00</div>
+						<%@ include file = "/partials/product-rating.jsp" %>
+					</div>
+				</div>
+				<div class="product">
+					<img src="images/the-life-changing-magic.png" />
+					<div class="product-info">
+						<div class="product-title">Book Title</div>
+						<div class="product-price">$0.00</div>
+						<%@ include file = "/partials/product-rating.jsp" %>
+					</div>
+				</div>
+				<div class="product">
+					<img src="images/american-sniper.png" />
+					<div class="product-info">
+						<div class="product-title">Book Title</div>
+						<div class="product-price">$0.00</div>
+						<%@ include file = "/partials/product-rating.jsp" %>
+					</div>
+				</div>
+				<div class="product">
+					<img src="images/the-alchemist.png" />
+					<div class="product-info">
+						<span class="product-title">Book Title</span>
+						<span class="product-price">$0.00</span>
+						<%@ include file = "/partials/product-rating.jsp" %>
+					</div>
+				</div>
+				<div class="product">
+					<img src="images/girl-on-train.png" />
+					<div class="product-info">
+						<div class="product-title">Book Title</div>
+						<div class="product-price">$0.00</div>
+						<%@ include file = "/partials/product-rating.jsp" %>
+					</div>
+				</div>
+				<div class="product">
+					<img src="images/american-sniper.png" />
+					<div class="product-info">
+						<div class="product-title">Book Title</div>
+						<div class="product-price">$0.00</div>
+						<%@ include file = "/partials/product-rating.jsp" %>
+					</div>
+				</div>
+				<div class="product">
+					<img src="images/the-alchemist.png" />
+					<div class="product-info">
+						<div class="product-title">Book Title</div>
+						<div class="product-price">$0.00</div>
+						<%@ include file = "/partials/product-rating.jsp" %>
+					</div>
+				</div>
+				<!-- <div class="product">
+					<img src="images/the-life-changing-magic.png" />
+					<div class="product-info">
+						<div class="product-title">Book Title</div>
+						<div class="product-price">$0.00</div>
+						<%@ include file = "/partials/product-rating.jsp" %>
+					</div>
+				</div>
+				<div class="product">
+					<img src="images/american-sniper.png" />
+					<div class="product-info">
+						<div class="product-title">Book Title</div>
+						<div class="product-price">$0.00</div>
+						<%@ include file = "/partials/product-rating.jsp" %>
+					</div>
+				</div>
+				<div class="product">
+					<img src="images/the-alchemist.png" />
+					<div class="product-info">
+						<span class="product-title">Book Title</span>
+						<span class="product-price">$0.00</span>
+						<%@ include file = "/partials/product-rating.jsp" %>
+					</div>
+				</div> -->
+			</div>
+
+			<%-- <button>Button (REGULAR)</button>
 			<button class="s-large">Button (LARGE)</button>
-			<button class="s-small">Button (SMALL)</button>
+			<button class="s-small">Button (SMALL)</button> --%>
 		</div>
 	</div>
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context-param>
+	<description>Location to store uploaded file(s)</description>
+	<param-name>file-upload</param-name>
+	<param-value>
+		/Users/joshbrunner/Dropbox/UW/CSS 490 (Web Dev)/web_dev/css490_web_app/WebContent/uploadFiles/
+	</param-value>
+</context-param>
