@@ -15,7 +15,7 @@
 </h2>
 <h2>
 	<%
-		out.println("Foobar");
+		out.println("Current Time is:  " + DateFormat.getTimeInstance().format(now));
 	%>
 </h2>
 </body>
