@@ -22,6 +22,7 @@
 						<a class="list-item">Item 4</a>
 						<a class="list-item">Item 5</a>
 						<a class="list-item">Item 6</a>
+						<a class="list-item">Item 7</a>
 					</div>
 				</div>
 			</div>
