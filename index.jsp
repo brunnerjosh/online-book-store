@@ -4,6 +4,11 @@
 	<!-- HEADER -->
 	<%@ include file = "/partials/header.jsp" %>
 
+	
+	
+	
+	
+	
 <body>
 	<!-- NAVIGATION BAR -->
 	<%@ include file = "/partials/navigation.jsp" %>
